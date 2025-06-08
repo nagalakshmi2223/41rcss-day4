@@ -178,21 +178,3 @@ body{
     font-size: 1em;
     margin: 0 5px;
 }
-
-/* Scrollbar Styling */
-.chat-area::-webkit-scrollbar {
-    width: 6px;
-}
-
-.chat-area::-webkit-scrollbar-track {
-    background: whitesmoke;
-}
-
-.chat-area::-webkit-scrollbar-thumb {
-    background: gray;
-    border-radius: 3px;
-}
-
-.chat-area::-webkit-scrollbar-thumb:hover {
-    background: darkgray;
-}

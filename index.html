@@ -136,7 +136,6 @@
                 </div>
             </div>
 
-            <!-- ✨ Continued Conversation Starts Here -->
             <div class="message sent">
                 <div class="message-bubble">
                     <p>BTW, did you start <em>Twenty-Five Twenty-One</em> last night?</p>
@@ -178,7 +177,7 @@
                     <span class="timestamp">08:36 AM</span>
                 </div>
             </div>
-            <!-- ✨ Continued Conversation Ends Here -->
+            
         </div>
 
         <div class="chat-input">
@@ -189,26 +188,5 @@
             <i class="bi bi-mic-fill"></i>
         </div>
     </div>
-
-    <script>
-        const chatArea = document.getElementById('chatArea');
-        const dateSeparators = document.querySelectorAll('.date-separator');
-
-        function updateStickyDate() {
-            const scrollTop = chatArea.scrollTop;
-            let currentStickyDate = null;
-
-            dateSeparators.forEach(separator => {
-                const separatorOffsetTop = separator.offsetTop - chatArea.offsetTop;
-                if (scrollTop >= separatorOffsetTop) {
-                    currentStickyDate = separator.getAttribute('data-date');
-                }
-            });
-        }
-
-        chatArea.scrollTop = chatArea.scrollHeight;
-        chatArea.addEventListener('scroll', updateStickyDate);
-        updateStickyDate();
-    </script>
 </body>
 </html>
