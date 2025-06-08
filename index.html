@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="whatsapp-container">
+        <div class="chat-header">
+            <i class="bi bi-arrow-left"></i>
+            <div class="profile-info">
+                <img src="https://i.pinimg.com/originals/d7/ab/b8/d7abb8a7c63839fee9337186d70eab73.jpg" alt="Profile" class="profile-pic">
+                <div class="profile-text">
+                <span class="chat-title">Srihansh</span><br>
+                <span class="chat-status">online</span>
+            </div>
+            </div>
+            <div class="header-icons">
+                <i class="bi bi-camera-video"></i>
+                <i class="bi bi-telephone"></i>
+                <i class="bi bi-search"></i>
+                <i class="bi bi-three-dots-vertical"></i>
+            </div>
+        </div>
+
+        <div class="chat-area" id="chatArea">
+            <div class="date-separator" data-date="June 1, 2025">June 1, 2025</div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Hii</p>
+                    <p>Have you watched *Crash Landing on You*?</p>
+                    <span class="timestamp">10:00 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Yes!! I finished it last night. I’m still crying 😭</p>
+                    <span class="timestamp">10:05 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>I know right?! The ending was beautiful but heartbreaking 🥺</p>
+                    <span class="timestamp">10:10 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Ri Jeong Hyeok is literally the perfect man 😍</p>
+                    <span class="timestamp">10:15 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+
+            <div class="date-separator" data-date="June 2, 2025">June 2, 2025</div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>And Yoon Se-ri is so strong and funny. I love her 💖</p>
+                    <span class="timestamp">09:00 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>I need a Season 2… I’m not over them yet 😭</p>
+                    <span class="timestamp">09:05 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Same! Or at least a special episode. Netflix pleaseee 🙏</p>
+                    <span class="timestamp">09:10 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Want to start another drama this weekend?</p>
+                    <span class="timestamp">09:15 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Yesss! Let's watch *Twenty-Five Twenty-One* next 💫</p>
+                    <span class="timestamp">09:20 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Thanks! I'll keep you posted.</p>
+                    <span class="timestamp">09:25 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Alright, chat soon!</p>
+                    <span class="timestamp">09:30 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>You too!</p>
+                    <span class="timestamp">09:35 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+
+            <div class="date-separator" data-date="June 3, 2025">June 3, 2025</div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Good morning!</p>
+                    <span class="timestamp">08:00 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Morning!</p>
+                    <span class="timestamp">08:05 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>How was your day yesterday?</p>
+                    <span class="timestamp">08:10 AM</span>
+                </div>
+            </div>
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Pretty good, productive. Yours?</p>
+                    <span class="timestamp">08:15 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Same here. Just wrapping up some tasks.</p>
+                    <span class="timestamp">08:20 AM</span>
+                </div>
+            </div>
+
+            <!-- ✨ Continued Conversation Starts Here -->
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>BTW, did you start <em>Twenty-Five Twenty-One</em> last night?</p>
+                    <span class="timestamp">08:25 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Yes! Just one episode though 😅</p>
+                    <span class="timestamp">08:26 AM</span>
+                </div>
+            </div>
+
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Same! I love Na Hee-do already 😍</p>
+                    <span class="timestamp">08:28 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Her energy is so refreshing!! 🥰</p>
+                    <span class="timestamp">08:30 AM</span>
+                </div>
+            </div>
+
+            <div class="message sent">
+                <div class="message-bubble">
+                    <p>Wanna binge a few more episodes tonight?</p>
+                    <span class="timestamp">08:35 AM <i class="bi bi-check2-all double-tick"></i></span>
+                </div>
+            </div>
+
+            <div class="message received">
+                <div class="message-bubble">
+                    <p>Yes please!! Popcorn and drama time 🍿✨</p>
+                    <span class="timestamp">08:36 AM</span>
+                </div>
+            </div>
+            <!-- ✨ Continued Conversation Ends Here -->
+        </div>
+
+        <div class="chat-input">
+            <i class="bi bi-emoji-smile"></i>
+            <input type="text" placeholder="Type a message">
+            <i class="bi bi-paperclip"></i>
+            <i class="bi bi-camera"></i>
+            <i class="bi bi-mic-fill"></i>
+        </div>
+    </div>
+
+    <script>
+        const chatArea = document.getElementById('chatArea');
+        const dateSeparators = document.querySelectorAll('.date-separator');
+
+        function updateStickyDate() {
+            const scrollTop = chatArea.scrollTop;
+            let currentStickyDate = null;
+
+            dateSeparators.forEach(separator => {
+                const separatorOffsetTop = separator.offsetTop - chatArea.offsetTop;
+                if (scrollTop >= separatorOffsetTop) {
+                    currentStickyDate = separator.getAttribute('data-date');
+                }
+            });
+        }
+
+        chatArea.scrollTop = chatArea.scrollHeight;
+        chatArea.addEventListener('scroll', updateStickyDate);
+        updateStickyDate();
+    </script>
+</body>
+</html>
