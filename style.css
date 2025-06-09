@@ -1,17 +1,17 @@
-body{
+.Container{
     font-family: Arial, sans-serif;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background-color: lightgray;
     overflow: hidden;
 }
 
 .whatsapp-container {
     width: 100%;
-    max-width: 400px;
+    width: 400px;
     height: 90vh;
     background-color: whitesmoke;
     border-radius: 8px;
@@ -21,7 +21,7 @@ body{
     overflow: hidden;
 }
 
-/* Chat Header */
+
 .chat-header {
     background-color: seagreen;
     color: white;
@@ -62,14 +62,14 @@ body{
     color: lightgreen;
 }
 
-/* Header icons */
+
 .header-icons .bi {
     margin-left: 15px;
     font-size: 1.4em;
     cursor: pointer;
 }
 
-/* Chat Area */
+
 .chat-area {
     flex-grow: 1;
     padding: 10px;
@@ -82,11 +82,11 @@ body{
     position: relative;
 }
 
-/* Message Styling */
+
 .message {
     display: flex;
     margin-bottom: 8px;
-    max-width: 80%;
+    width: 80%;
     position: relative;
     clear: both;
 }
@@ -136,7 +136,7 @@ body{
     margin-left: 10px;
 }
 
-/* Date Separator */
+
 .date-separator {
     background-color: lightgreen;
     color: dimgray;
@@ -152,7 +152,7 @@ body{
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* Chat Input */
+
 .chat-input {
     display: flex;
     align-items: center;
